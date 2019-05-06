@@ -1,0 +1,12 @@
+<template>
+    <h1>The total number of all todos is : {{ count }}</h1>
+</template>
+<script>
+    export default {
+        computed: {
+            count() {
+                return this.$store.state.todos.todos.length
+            }
+        }
+    }
+</script>
