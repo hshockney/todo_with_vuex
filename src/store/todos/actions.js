@@ -1,5 +1,5 @@
 import Axios from 'axios'
-const url = 'mcok_api_url'
+const url = 'https://5cd0607ad4a78300147bdfc5.mockapi.io/todos'
 
 export default {
     addTodo({ state, commit }, payload) {
